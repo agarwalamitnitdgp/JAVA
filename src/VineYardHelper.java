@@ -86,7 +86,7 @@ public class VineYardHelper {
 	public void outputFile(int totalWineSold,HashMap<String,ArrayList<String>> distinctWineList) {
 		
 		  try {
-			BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("C:/Users/amiagarw/Downloads/output_Person_Wine_List.txt")));
+			BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("D:/output_Person_Wine_List.txt")));
 			    bw.write(String.valueOf(totalWineSold));
 			    bw.newLine();
 			    for(String person: distinctWineList.keySet()){
